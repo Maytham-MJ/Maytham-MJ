@@ -1,6 +1,5 @@
 <h1 align="center">Hi 👋, I'm M.J</h1>  
 
-
 <h3 align="center">A passionate software engineer from California</h3>
 
 <img src="https://miro.medium.com/max/1360/1*zVnWJtyGOX_kUIDm6ccCfQ.gif">
