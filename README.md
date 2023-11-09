@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently open to work **Remote/full-time**
 
-- 👨‍💻 All of my projects are available at [www.mjcodes.net](www.mjcodes.net)
+- 👨‍💻 All of my projects are available at [https://www.mjcodes.net]
 
 - 💬 Ask me about **Java/Blockchain/.NET/Front-End**
 
