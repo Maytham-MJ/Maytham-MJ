@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm m.j</h1>
-<h3 align="center">A passionate software engineer from California</h3>
+<h3 align="center">A passionate cloud engineer from California</h3>
 
 
 
@@ -13,7 +13,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=maytham-mj&label=Profile%20views&color=0e75b6&style=flat" alt="maytham-mj" /> </p>
 
-- 🌱 I’m currently learning **A.I Prompting**
+- 🌱 I’m currently learning ** ☁️ Security  **
 
 
 <h3 align="left">Connect with me:</h3>
