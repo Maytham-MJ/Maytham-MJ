@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm m.j</h1>
-<h3 align="center">A passionate cloud engineer from California</h3>
+<h3 align="center">A passionate software security engineer from California</h3>
 
 
 
