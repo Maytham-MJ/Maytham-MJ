@@ -3,7 +3,7 @@ const form=document.getElementById('checker-form');
 const input=document.getElementById('address-input');
 const output=document.getElementById('check-result');
 function check(){
-  const result=analyze(input.value.trim());output.dataset.status=result.status;
+  const result=analyze(input.value.trim());output.hidden=false;output.dataset.status=result.status;
   const label=document.createElement('span');label.className='result-label';
   label.textContent={warning:'LOOKALIKE SIGNAL DETECTED',matched:'PROTECTED DOMAIN MATCH',unknown:'UNKNOWN — NOT VERIFIED',unsupported:'ADDRESS COULD NOT BE CHECKED'}[result.status];
   const heading=document.createElement('h3');heading.textContent=result.host||'Enter a valid HTTP or HTTPS address.';
@@ -13,4 +13,4 @@ function check(){
 }
 form.addEventListener('submit',e=>{e.preventDefault();check();});
 document.querySelectorAll('[data-example]').forEach(button=>button.addEventListener('click',()=>{input.value=button.dataset.example;check();}));
-fetch('download.json').then(r=>r.json()).then(info=>{document.getElementById('download-info').textContent=`ZIP · ${(info.bytes/1024).toFixed(1)} KB · SHA-256: ${info.sha256}`;}).catch(()=>{});
+
