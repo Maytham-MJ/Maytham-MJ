@@ -1,5 +1,7 @@
 # Domain Guardian
 
+[![Domain Guardian landing page with the Browse safely headline and local domain checker](assets/landing-page.png)](https://domain-guardian-maytham.maythamlucky.chatgpt.site/)
+
 A privacy-first Chrome / Edge extension that flags domains resembling trusted sites. Built with JavaScript and Manifest V3, with no runtime dependencies or external lookup service.
 
 [Try the live domain checker](https://domain-guardian-maytham.maythamlucky.chatgpt.site/) · [Download the extension ZIP](https://domain-guardian-maytham.maythamlucky.chatgpt.site/domain-guardian-extension.zip)
