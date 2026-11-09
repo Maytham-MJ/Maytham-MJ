@@ -2,14 +2,20 @@
 
 A privacy-first Chrome / Edge extension that flags domains resembling trusted sites. Built with JavaScript and Manifest V3, with no runtime dependencies or external lookup service.
 
-## Install locally
+[Try the live domain checker](https://domain-guardian-maytham.maythamlucky.chatgpt.site/) · [Download the extension ZIP](https://domain-guardian-maytham.maythamlucky.chatgpt.site/domain-guardian-extension.zip)
 
-1. Download or clone this project.
-2. Open `chrome://extensions` (Chrome) or `edge://extensions` (Edge).
-3. Enable **Developer mode**, choose **Load unpacked**, and select the `extension` folder.
-4. Pin Domain Guardian. Open its popup to inspect the current domain or check an address without visiting it.
+## Try it
 
-No build step, API key, or account required. This version is an unpacked prototype, not a published browser-store listing. Firefox support is not implemented.
+Enter `githbu.com` in the website checker to see why a two-letter swap resembles `github.com`. The checker runs locally and never opens the submitted address.
+
+## Install on desktop Chrome or Edge
+
+1. Download and extract the extension ZIP above.
+2. Open `chrome://extensions` or `edge://extensions` and enable **Developer mode**.
+3. Choose **Load unpacked** and select the extracted **extension** folder containing `manifest.json`.
+4. Pin **Domain Guardian** from the extensions menu. Add domains you have independently verified in its popup.
+
+The ZIP is free to download and install manually. This prototype has no Chrome Web Store listing.
 
 ## Features
 
@@ -63,14 +69,6 @@ Manual browser acceptance checklist (not yet executed):
 ## Architecture
 
 `detector.js` is a pure rule engine using WHATWG URL normalization and Damerau-style edit distance. `background.js` handles top-level navigation and ignores stale URL results. `ui.js` renders popup/warning output with text nodes, avoiding HTML injection. Popup checks never navigate to supplied URLs.
-
-## Portfolio / resume
-
-**Domain Guardian — JavaScript, Browser Extensions, Security**
-
-“Built a Manifest V3 browser-extension prototype that detects lookalike domains using edit-distance and hostname heuristics, provides explainable phishing warnings, and keeps URL analysis on-device; added automated unit and navigation-flow tests with GitHub Actions.”
-
-Use wording that accurately reflects your own implementation, review, and testing. Do not claim measured detection accuracy, deployment, users, or prevention rates without evidence. See [PORTFOLIO.md](PORTFOLIO.md) for interview talking points and next steps.
 
 ## Next steps
 
