@@ -1,0 +1,21 @@
+name: Domain Guardian
+on:
+  push:
+    paths: ['domain-guardian/**', '.github/workflows/domain-guardian.yml']
+  pull_request:
+    paths: ['domain-guardian/**', '.github/workflows/domain-guardian.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: domain-guardian
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm test
+      - run: npm run check
